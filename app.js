@@ -1,8 +1,10 @@
 import { getAuth, createUserWithEmailAndPassword } from "./firebase.js";
 
+
+
 const auth = getAuth();
 
-let signUpBtn = document.getElementById("signup-btn");
+let signUpBtn =document.getElementById("signup-btn")
 let signupEmail = document.getElementById("signup-email");
 let signupPassword = document.getElementById("signup-password");
 

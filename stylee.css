@@ -1,0 +1,25 @@
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px; /* Adjust spacing */
+    height: 20px; /* Adjust size */
+  }
+  
+  .extra-icon {
+    position: absolute;
+    right: 10px; /* Adjust spacing */
+    height: 20px; /* Adjust size */
+  }
+  
+  form input[type="search"] {
+    padding-left: 40px; /* Space for search icon */
+    padding-right: 40px; /* Space for extra icon */
+  }
+  
